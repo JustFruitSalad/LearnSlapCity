@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*
+Author: Jonathan Freyvogel
+Date Started: 10/31/2022
+Date Finished: 
+Date Updated: 11/1/2022
+Filename: slap.html
+*/
+
+/*Global*/
+html {background-color:skyblue;}
+header>h1 {text-align:center;}
+footer {
+  text-align:center;
+  background-color:rgb(95, 146, 167);}
+.char-grid > div {
+  background-color: lightsalmon;
+  border: 5px solid maroon;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom:5px;}
+h2, form {
+  text-align: center;}
+form {
+  width: 250px;
+  border-radius: 5px;
+  background: rgb(166, 215, 235);
+  border:rgb(95, 146, 167) 5px solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;}
+input[type="submit"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75px;}
+.char-grid > div > a {
+  color:brown;
+      text-decoration:none;}
+.char-grid > div > a:hover {
+  color:darkcyan;
+  text-decoration: none;}
+aside > strong {
+  font-size:2em;
+}
+
+/*Desktop Only*/
+@media(min-width:501px) {
+  header>img {
+    width:700px;
+    box-shadow: 0px 0px 50px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+.char-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 50px;
+  padding: 50px;}
+.char-grid > div > a > img {
+  width:150px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;}
+  aside > img {
+    width:1200px;
+    text-align:center;
+  }
+/*End Desktop Only*/
+}
+
+/*Mobile Only*/
+@media(max-width:500px) {
+  header>img {
+    width:350px;
+    box-shadow: 0px 0px 20px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+.char-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 50px;
+  padding: 50px;
+}
+.char-grid > div > a > img {
+  width:100px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+aside > img {
+  width:450px;
+  text-align:center;
+}
+/*End Mobile Only*/
+}
+div.bigcard > img {
+  width:500px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav > p {
+  font-size: 3em;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  color: white;
+}
+table.proscons {
+  table-layout: fixed;
+}
+th, td {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: left;
+  vertical-align: top;
+}
+table thead {
+  text-align: center;
+  font-size:2em;
+}
+.pros {
+  background-color: rgb(35, 211, 35);}
+.cons {
+  background-color: rgb(184, 0, 0);}
+tbody {
+  background-color:rgb(89, 152, 177);
+}
+table.hitboxes > tbody > tr > th > img {
+  width:150px;
+}
+table.hitboxes > thead > tr {
+  font-size:0.8em;
+}
+table.hitboxes > caption {
+  text-align: left;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
