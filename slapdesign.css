@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*
-Author: Jonathan Freyvogel
+Author: Jonathan
 Date Started: 10/31/2022
 Date Finished: 
 Date Updated: 11/1/2022
@@ -146,6 +146,11 @@ table.hitboxes > thead > tr {
 table.hitboxes > caption {
   text-align: left;
   font-size: 2em;
+}
+article {
+  color: red;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 
